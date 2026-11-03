@@ -2,6 +2,8 @@
 
 A dark theme for Visual Studio Code that uses the colors from T3 Code.
 
+![T3 Code Dark theme in VS Code](images/screenshot.png)
+
 > This project is not affiliated with or endorsed by T3 Code. It only borrows T3 Code's colors to make a VS Code theme.
 
 ## Credits
