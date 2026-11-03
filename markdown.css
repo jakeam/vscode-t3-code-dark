@@ -1,0 +1,6 @@
+/* Match T3 Code's text in the Markdown preview: thin antialiased glyphs, 90% foreground. */
+body[data-vscode-theme-name^="T3 Code Dark"],
+body[data-vscode-theme-id="T3 Code Dark"] {
+  -webkit-font-smoothing: antialiased;
+  color: #dcdcdc;
+}

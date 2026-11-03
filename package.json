@@ -1,0 +1,34 @@
+{
+  "name": "t3-code-dark",
+  "displayName": "T3 Code Dark",
+  "description": "T3 Code's default dark UI colors with its Pierre Dark syntax highlighting.",
+  "version": "1.0.0",
+  "publisher": "jakeam",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jakeam/vscode-t3-code-dark"
+  },
+  "engines": {
+    "vscode": "^1.70.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "T3 Code Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/t3-code-dark.json"
+      }
+    ],
+    "markdown.previewStyles": [
+      "./markdown.css"
+    ]
+  },
+  "scripts": {
+    "package": "npx -y @vscode/vsce@4.1.0 package --skip-license -o t3-code-dark.vsix",
+    "install-theme": "npm run package && code --install-extension t3-code-dark.vsix --force"
+  }
+}
